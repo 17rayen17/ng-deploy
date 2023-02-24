@@ -1,0 +1,38 @@
+<body>
+
+
+<section class="login">
+      <div class="LoginZone">
+        <div class="title">
+          <h1>Welcome back</h1>
+          <p>please enter your details</p>
+        </div>
+        <form action="">
+          <label for="">Email</label>
+          <input type="email" name="" id="" placeholder="Enter your email" required autofocus [(ngModel)]="email">
+
+          <label for="">password</label>
+          <input type="password" name="" id="" placeholder="*******" required [(ngModel)]="psw">
+          <div class="rmb">
+            <input type="checkbox" name="" id="check">
+            <label for="check">Remember for 30 days</label>
+            <a href="#">Forgot password</a>
+          </div>
+          <input type="submit" value="Sign in" routerLink="/profile">
+
+        </form>
+
+        <p>Don't have an account? <a href="#">Sign Up</a></p>
+
+        <!--<p>E-Health  copyright | 2023</p>-->
+      </div>
+
+      <div class="imgzone">
+        <img src="assets/login/top.png" alt="Login_image" />
+        <img src="assets/login/mid.png" alt="">
+        <img src="assets/login/bot.png" alt="">
+      </div>
+
+    </section>
+
+</body>
